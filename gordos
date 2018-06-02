@@ -1,0 +1,5 @@
+#!/bin/bash
+#Lista directorios mas ocupados por debajo de $1
+
+du $1 | sort -n | tail
+
